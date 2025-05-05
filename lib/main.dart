@@ -139,7 +139,7 @@ class SeleccionarBoton extends StatelessWidget  {
   
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         ElevatedButton(
@@ -320,7 +320,7 @@ class _OperacionDivisionState extends State<OperacionDivision> {
       children:[
         ElevatedButton(
           onPressed: division,
-          child: const Text("calcular SUMA"),
+          child: const Text("calcular DIVISION"),
         ),
         Text(
           "Resultado: $resultado",
